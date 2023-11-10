@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML/CSS course</title>
+    <link href="CSS/styles.css" rel="stylesheet" />
+
+    <!--Polices Google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+
+    <section id="back_to_first_chapter"></section>
+
+
+    <div>
+        <img src="images/banner.jpg" alt="banner" id="banner">
+    </div>
+
+
+
+<!--________________BASIC HTML/CSS________________-->
+    <div>
+        <h1>
+            HTML and CSS Basics
+        </h1>
+    </div>
+
+<!-- TAGS -->
+    <div class="chapitre">
+        <section id="back_to_tags"></section>
+        <div class="title">
+            <h2>TAGS</h2>
+        </div>
+        <div class="contenu">
+            <div class="subject_text">
+                <p>Les tags permettent de structurer la page et de permettre de s'y retrouver plus facilement. On peut
+                    retrouver le tag "div", "a" ou encore "p".</p>
+                <p>On peut également y ajouter des attributs [id (unique) ou class (réutilisé) par exemple] qui seront par la suite utilisées
+                    lors de la mise en page. Voir le chapitre dédié au CSS pour aller plus loin.</p>
+                <img src="images/attributs.png" alt="présentation attributs" id="tags_image">
+            </div>
+            <div class="tags_datas">
+                <div>
+                    <img src="images/tags.png" alt="principaux tags" id="tags_image">
+                </div>
+                <div>
+                    <a href="https://fr.w3docs.com/apprendre-html/tableau-des-tags-html.html" target="_blank">Lien vers
+                        les principaux tags</a>
+                </div>
+            </div>
+        </div>
+        <div class="links_course">
+            Voici le <a href="https://youtu.be/dX8396ZmSPk?feature=shared&t=797" target="_blank">lien</a> du cours
+                concernant les tags et leur utilisation
+        </div>
+    </div>
+
+<!-- WIREFRAME -->
+    <div class="chapitre">
+        <section id="back_to_wireframe"></section>
+        <div class="title">
+            <h2>WIREFRAME</h2>
+        </div>
+        <div class="contenu">
+            <div class="subject_text">
+                <p>
+                    L'objectif est dans un premier temps de structurer son projet à la main afin de bien identifier les
+                    différents blocs à développer et pourquoi pas même déjà mettre en place tous les tags principaux en
+                    place avant même de parler du contenu en lui-même.
+                </p>
+            </div>
+            <div class="wireframe_tools">
+                <div>
+                    <img src="images/wireframe_proposition.png" alt="proposition de wireframe" id="wireframe_image">
+                </div>
+                <div>
+                    <a href="https://excalidraw.com/" target="_blank">excalidraw</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="links_course">
+            Voici le <a href="https://youtu.be/dX8396ZmSPk?feature=shared&t=1392" target="_blank">lien </a>du cours
+                concernant les wireframes
+        </div>
+    </div>
+
+<!-- LISTS -->
+    <div class="chapitre">
+        <section id="back_to_lists"></section>
+        <div class="title">
+            <h2>LISTS</h2>
+        </div>
+        <div class="contenu">
+            <div class="lists_ul">
+                <p>Les Unordered lists permettent simplement de lister des éléments sans pour autant leur donner d'ordre
+                    important. On retrouve la notion de points.</p>
+                <p>Le tag à utiliser est "ul" et chaque élément d'une liste a un tag "li"</p>
+                <ul>
+                    <li>
+                        Element 1 : 
+                    </li>
+                    <li>
+                        Element 2
+                    </li>
+                    <li>
+                        Element 3
+                    </li>
+                </ul>
+
+            </div>
+            <div class="lists_ol">
+                <p>Les Ordered lists permettent à l'inverse d'ordonner une liste en donnant des numéros à chaque élément
+                    de manière automatique.</p>
+                <p>Le tag à utiliser est "ol" et chaque élément d'une liste a un tag "li"</p>
+                <ol>
+                    <li>
+                        Element 1
+                    </li>
+                    <li>
+                        Element 2
+                    </li>
+                    <li>
+                        Element 3
+                    </li>
+                </ol>
+            </div>
+        </div>
+        <div class="text_lists_none">
+            <p>On peut également supprimer la mise en forme avec les points via le CSS : </p>
+            <ul>
+                <li>
+                    Element 1
+                </li>
+                <li>
+                    Element 2
+                </li>
+                <li>
+                    Element 3
+                </li>
+            </ul>
+            <img src="images/ul_sans_point.png" alt="mise en forme css ul sans mise en forme" id="ul_without_point">
+
+        </div>
+        <div class="text_lists_footer">
+            <p>On peut les aligner horizontalement et les centrer pour un footer par exemple :</p>
+            <ul>
+                <li>
+                    Element 1
+                </li>
+                <li>
+                    Element 2
+                </li>
+                <li>
+                    Element 3
+                </li>
+            </ul>
+            <img src="images/display_inline.png" alt="Alignement liste pour footer" id="ul_footer">
+
+        </div>
+        <div class="links_course">
+            Voici le <a href="https://youtu.be/dX8396ZmSPk?feature=shared&t=2499" target="_blank">lien</a> du cours
+                concernant les listes
+        </div>
+    </div>
+
+<!-- LINKS -->
+    <div class="chapitre">
+        <section id="back_to_links"></section>
+        <div class="title">
+            <h2>LINKS</h2>
+        </div>
+        <div class="contenu">
+            <div class="links_text">
+                <p>
+                    Il existe différents types de liens en HTML :
+                </p>
+                <ul>
+                    <li>
+                        <p>
+                            Vers du <a href="https://youtube.com" target="_blank"> contenu externe </a>(youtube par
+                                exemple)
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Revenir vers le<a href="#back_to_first_chapter"> premier chapitre</a>
+                        </p>
+                    </li>
+                    <li>
+                        <p>afin de faire le lien entre 2 pages dans le code (HTML <-> CSS)</p>
+                    </li>
+                    <li>
+                        <p>Faire un lien permettant d'<a href="mailto:gilles@cerithe.fr?subject=Bonjour Cerithe" target="_blank">écrire d'un mail</a></p>
+                    </li>
+                </ul>
+            </div>
+            <div class="links_links">
+                <p>
+                    Quelques tips à utiliser :
+                </p>
+                <ul>
+                    <li>
+                        <p>
+                            Ouvrir un nouvel onglet avec target="_blank"
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Utiliser une section pour faire défiler son code :
+                        </p>
+                        <p>
+                            <code>&lt;section id="back_to_first_chapter"&gt;&lt;/section&gt;</code>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Utiliser du CSS pour avoir l'effet défilement
+                        </p>
+                        <p>
+                            html {scroll-behavior: smooth;}
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Lier HTML et CSS avec &lt;link href="CSS/styles.css" rel="stylesheet" /&gt;
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            On peut supprimer le soulignage des balises "a" via : 
+                        </p>
+                        <p>
+                            "text-decoration: none;" (utilisé pour l'ensemble des liens de la page)
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="links_course">
+            Voici le<a href="https://youtu.be/dX8396ZmSPk?feature=shared&t=2768" target="_blank"> lien </a>du cours
+                concernant les liens
+        </div>
+    </div>
+
+<!-- IMAGES -->
+    <div class="chapitre">
+        <section id="back_to_images"></section>
+        <div class="title">
+            <h2>IMAGES</h2>
+        </div>
+        <div class="contenu">
+            <div class="images_text">
+                <p>
+                    Il faut bien entendu mettre le lien vers l'image mais aussi ajouter un "alt" qui va permettre de décrire l'image si besoin
+                </p>
+                <p>
+                    Il existe des sites permettant de trouver des images gratuitement comme <a href="https://unsplash.com/fr" target="_blank">Unplash</a>
+                </p>
+                <p> 
+                    Concernant les images, on va plutôt utiliser des "id" que des class afin de les identifier dans le CSS. Ils seront identifiés via un #.
+                </p>
+                <p> 
+                    On peut trouver ci-contre différentes possibilités permises afin de mettre en forme des images. Je mettrai à jour cette liste au fil de mes rencontres.
+                </p>
+            </div>
+        </div>
+        <div class="images_possibility">
+            <div class = "image_1">
+                <img src="images/image1.jpg" alt="image 1" id="image1">
+                <p>Image 1 : Elle va s'étirer en fonction de la largeur de l'écran</p>
+            </div>
+            <div class = "image_2">
+                <img src="images/image2.jpg" alt="image 2" id="image2">    
+                <p>Image 2 : Elle va faire 500px max et prendre 50% du div au maximum également. 
+                <p>
+                    J'ai également ajouté des bords arrondis
+                </p>
+            </div>
+        </div>
+
+        <div class="images_positions">
+            <div class="image_position_1">
+                <img src="images/image_positions_1.jpg" id="image_position_1">
+            </div>
+            <div class="image_position_2">
+                <img src="images/image_positions_2.jpg" id="image_position_2" >
+            </div>
+            <div class="image_position_3">
+                <img src="images/image_positions_3.jpg" id="image_position_3">
+            </div>
+            <div class="image_position_4">
+                <img src="images/image_positions_4.jpg" id="image_position_4">
+            </div>
+        </div>
+
+        <div class="links_course">
+            Voici le <a href="https://youtu.be/dX8396ZmSPk?feature=shared&t=3128" target="_blank">lien </a>du cours
+                concernant les images
+        </div>
+    </div>
+
+<!-- CSS -->
+    <div class="chapitre">
+        <section id="back_to_css"></section>
+        <div class="title">
+            <h2>CSS</h2>
+        </div>
+        <div class="contenu">
+            <div class="css_text">
+                <p>
+                    Le CSS permet de mettre en forme les éléments présents dans le HTML. Il va utiliser les attributs (id, class) comme repères pour cela. 
+                </p>
+                <p>
+                    On peut ainsi choisir la position des div entre eux, du texte à l'intérieur, des couleurs du texte ou du fond et gérer la box (cf ci-dessous). 
+                </p>
+                <p>
+                    On peut retrouver sur <a href="https://alticreation.com/8-regles-organiser-code-css/" target="_blank">ce site</a> quelques conseils afin de bien organiser son code en CSS.
+                </p>
+            </div>
+            <div class="css_exemples">
+                <p> 
+                    on va prendre l'exemple du max-width concernant le texte ci-contre. Cela va permettre de limiter sa taille en cas d'agrandissement de la fenêtre tout en centrant le contenu et en conservant une marge minimale de 5px.
+                </p>
+                <p> 
+                    on va prendre l'exemple du wax-width concernant le texte ci-contre : 
+                </p>
+                <img src="images/css_image.png" alt="exemple_css" id="css_image">
+            </div>
+        </div>
+
+        <div class="links_course">
+            Voici le <a href="https://youtu.be/dX8396ZmSPk?feature=shared" target="_blank">lien </a>du cours
+                concernant le CSS
+        </div>
+
+
+        <div class="css_contenu_2">
+            <h3>Box Model</h3>
+        </div>
+
+        <div class="contenu">
+            <div class="text css_box_text">
+                <p>
+                    Voici la manière dont les éléments sont organisés dans une page HTML. C'est en jouant avec ces éléments que l'on va pouvoir avoir le rendu souhaité.
+                </p>
+            </div>
+            <div class="css_box_image">
+                <p>
+                    <img src="images/css_box_model.png" alt="CSS box model" id="box_model">
+                </p>
+            </div>
+        </div>
+
+        <div class="links_course">
+            Voici le <a href="https://youtu.be/dX8396ZmSPk?feature=shared&t=4613" target="_blank">lien </a>du cours
+                concernant le Box Model
+        </div>
+    </div>
+
+
+<!--________________ADVANCED HTML/CSS________________-->
+    <div>
+        <h1>Advanced HTML/CSS</h1>
+    </div>
+
+<!-- IMPROVE WIREFRAME -->
+    <div class="chapitre">
+        <div class="title">
+            <h2>IMPROVE WIREFRAME</h2>
+        </div>
+            <p>Nous avons identifié la structure de base de notre site, construit une page avec les éléments de base.</p>
+            <p>Nous pouvons maintenant aller plus loin et utiliser de nouveaux outils.</p>
+            <p>Il faut avancer par itération, développer ➡️ délivrer et non pas tout faire en cascade</p>
+            <img src="images/iterative.png" alt="uterative scheme" id="classic_image">
+        <div class="links_course">
+            Voici le <a href="https://youtu.be/dX8396ZmSPk?feature=shared&t=8055" target="_blank">lien </a>du cours
+                concernant les notions avancées
+        </div>
+    </div>
+
+<!-- TABLES -->
+    <div class="chapitre">
+        <div class="title">
+            <h2>TABLES</h2>
+        </div>
+            <p>Il est nécessaire de maîtriser la façon dont sont conçus les tables dans les sites, que ce soit pour les reproduire mais aussi pourquoi pas les scraper si besoin</p>
+            <p>Nous allons donc construire un tableau qui va regrouper les différents sujets vu jusqu'à maintenant.</p>
+        <div class="contenu">
+            <div class="subject_text">
+            <p> Voici tout d'abord les notions principales et les tags à utiliser :</p>
+            </div>
+            <div>
+                <img src="images/table_tags.png" alt="table tags" id="classic_image">
+            </div>
+        </div>
+
+        <h3>Sujets abordés</h3>
+        <div class="table">
+            <table id="exemple_tab">
+
+                <tr class="row_header">
+                    <th rowspan="2" >Sujets</th>
+                    <th colspan="2">Liens</th>
+                </tr>
+
+                <tr class="row_header">
+                    <th>Lien dans la page</th>
+                    <th>Lien Youtube</th>
+                </tr>
+
+                <tr class="row_data">
+                    <td>TAGS</td>
+                    <td> <a href="#back_to_tags"> Y aller</a></td>
+                    <td><a href="https://youtu.be/dX8396ZmSPk?feature=shared&t=797" target="_blank"> Y aller</a></td>
+                </tr>
+
+                <tr class="row_data">
+                    <td>WIREFRAME</td>
+                    <td> <a href="#back_to_wireframe"> Y aller</a></td>
+                    <td><a href="https://youtu.be/dX8396ZmSPk?feature=shared&t=1392" target="_blank"> Y aller</a></td>
+                </tr>
+
+                <tr class="row_data">
+                    <td>LISTS</td>
+                    <td> <a href="#back_to_lists"> Y aller</a></td>
+                    <td><a href="https://youtu.be/dX8396ZmSPk?feature=shared&t=2499" target="_blank"> Y aller</a></td>                
+                </tr>
+
+                <tr class="row_data">
+                    <td>LINKS</td>
+                    <td> <a href="#back_to_links"> Y aller</a></td>
+                    <td><a href="https://youtu.be/dX8396ZmSPk?feature=shared&t=2768" target="_blank"> Y aller</a></td>                
+                </tr>
+
+                <tr class="row_data">
+                    <td>IMAGES</td>
+                    <td> <a href="#back_to_images"> Y aller</a></td>
+                    <td><a href="https://youtu.be/dX8396ZmSPk?feature=shared&t=3128" target="_blank"> Y aller</a></td>                
+                </tr>
+
+                <tr class="row_data">
+                    <td>CSS</td>
+                    <td> <a href="#back_to_css"> Y aller</a></td>
+                    <td><a href="https://youtu.be/dX8396ZmSPk?feature=shared" target="_blank"> Y aller</a></td>               
+                </tr>
+
+            </table>
+        </div>
+
+        <div class="contenu">
+            <p>Voici quelques liens utiles afin de s'améliorer sur le sujet : </p>
+            <ul>
+                <li> <a href="https://www.youtube.com/watch?v=dX8396ZmSPk&t=9575s">Tuto pour styliser les tables</a></li>
+                <li> <a href="https://www.w3schools.com/html/html_table_styling.asp">W3 school pour styliser encore plus</a></li>
+                <li> <a href="https://youtu.be/dX8396ZmSPk?feature=shared&t=10089">Alterner les couleurs du tableau</a></li>
+                <li> <a href="hthttps://youtu.be/dX8396ZmSPk?feature=shared&t=10338">Fusionner les cellules</a></li>
+            </ul>
+        </div>
+
+        <div class="links_course">
+            Voici le <a href="https://youtu.be/dX8396ZmSPk?feature=shared&t=8954" target="_blank">lien </a>du cours
+                concernant les tables
+        </div>
+
+    </div>
+
+<!-- FONT-FAMILY -->
+    <div class="chapitre">
+        <div class="title">
+            <h2>FONT FAMILY</h2>
+        </div>
+        <div class="rem_text">
+            <P>
+                Plutôt que d'ajuster à la main la taille des textes sur une page et devoir tout reprendre à 0 en cas de modification, on peut utiliser les fonction rem et em 
+            <P>
+            <br>
+            <div class="contenu rem">
+                <div class="rem_text">
+                    <p>
+                        rem va permettre d'initialiser une valeur de base (en général 16px) puis d'utiliser un coefficient multiplicateur pour l'ensemble des tags utilisés.
+                    </p>
+                </div>
+                <div>
+                    <img src="images/rem_text_size.png" alt="coef rem pour textes" id="classic_image">
+                </div>
+            </div>
+
+            <div class="contenu rem">
+                <div class="rem_text">
+                    <p>
+                        On va initier cela grâce au code suivant : 
+                    </p>
+                </div>
+                <div>
+                    <img src="images/font_size_initialisation.png" alt="source pour rem" id="classic_image">
+                </div>
+            </div>
+
+            <div class="contenu rem">
+                <div class="rem_text">
+                    <p>
+                        On peut ensuite revoir la taille de l'ensemble de nos éléments ainsi : 
+                    </p>
+                </div>
+                <div>
+                    <img src="images/rem_example.png" alt="exemple rem pour h1" id="classic_image">
+                </div>
+             </div>
+        </div>
+        <div class="rem_text">
+            <P>
+                On peut importer des polices de caractères spécifiques grâce aux outils de Google : <a href="https://fonts.google.com/" target="_blank">Polices Google</a>
+            </P>
+            <br>
+            <p>
+                On peut alors sélectionner différentes polices et les intégrer au début de notre page HTML dans la balise "head" :
+            </p>
+            <div>
+                <img src="images/html_head.png" alt="link google dans head" id="classic_image">
+            </div>
+            <p>
+                On peut maintenant mettre une police pour le "body", une police pour les balises "hx" et une autre police au cas-où (sans-serif dans notre cas): 
+            </p>
+            <div>
+                <img src="images/font_family.png" alt="font family" id="classic_image">
+            </div>
+            <div>
+                <p>
+                    Voici maintenant quelques sources à consulter afin de bien accorder les polices des titres et du body : 
+                </p>
+                <ul>
+                    <li>
+                        <a href="https://www.creativebloq.com/typography/20-perfect-font-pairings-3132120" target="_blank">37 parfaites associations</a>
+                    </li>
+                    <li>
+                        <a href="https://youtu.be/dX8396ZmSPk?feature=shared&t=11266" target="_blank">Common text styles</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+
+        <div class="links_course">
+            Voici le <a href="https://youtu.be/dX8396ZmSPk?feature=shared&t=10726" target="_blank">lien </a>du cours
+                concernant style text
+        </div>
+
+    </div>
+
+<!-- COLORS -->
+    <div class="chapitre">
+        <div class="title">
+            <h2>COLORS</h2>
+        </div>
+
+        <div>
+            <p>
+                Voici quelques liens utiles afin de permettre d'identifier des couleurs ou bien s'assurer qu'elles vont bien ensembles : 
+            </p>
+
+            <ul>
+                <li>
+                    <a href="https://www.w3.org/wiki/CSS/Properties/color/keywords" target="_blank">liste des couleurs identifiées par un nom en CSS</a>
+                </li>
+                <li>
+                    <a href="https://www.google.fr/search?q=rgb+color+picker&sca_esv=580414175&source=hp&ei=OkVLZYGCOd6bkdUP4c6g-AQ&iflsig=AO6bgOgAAAAAZUtTSp899KypAhXOVC40GW0zLVnGpIsk&ved=0ahUKEwiBh_rI_LOCAxXeTaQEHWEnCE8Q4dUDCAo&uact=5&oq=rgb+color+picker&gs_lp=Egdnd3Mtd2l6IhByZ2IgY29sb3IgcGlja2VyMgsQABiABBixAxiDATIFEAAYgAQyBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeSPQpUABYuylwAHgAkAEAmAGbAaAB0QmqAQQxNS4xuAEDyAEA-AEC-AEBwgILEC4YigUYsQMYgwHCAggQABiABBixA8ICERAuGIAEGLEDGIMBGMcBGNEDwgIFEC4YgATCAgsQLhiABBixAxiDAcICCxAuGIAEGMcBGK8BwgIIEC4YgAQYsQPCAgcQABiABBgKwgINEAAYgAQYsQMYgwEYCg&sclient=gws-wiz" target="_blank">Sélecteur de couleurs Google</a>
+                </li>
+                <li>
+                    <a href="https://youtu.be/dX8396ZmSPk?feature=shared&t=13002" target="_blank">Ajouter de la transparence</a>
+                </li>
+                <li>
+                    <a href="https://coolors.co/contrast-checker/112a46-acc8e5" target="_blank">Vérifier le bon contraste sur notre page</a>
+                </li>
+                <li>
+                    <a href="https://tailwindcolor.com/" target="_blank">Palette de couleur à utiliser si on ne veut pas se tromper et rendre quelque chose de beau</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="contenu">
+            <div class="color_text">
+                <p>
+                    Voici également quelques propriétés concernant les couleurs : 
+                </p>
+            </div>
+            <div>
+                <img src="images/color_properties.png" alt="color properties" id="classic_image">
+            </div>
+        </div>
+
+        <div class="contenu">
+            <div class="color_text">
+                <p>
+                    J'en ai également profité pour ajouter une ombre au passage de la souris pour tous les liens
+                </p>
+            </div>
+            <div>
+                <img src="images/a_hover.png" alt="link hover" id="classic_image">
+            </div>
+        </div>
+        
+        <div class="contenu">
+            <div class="color_text">
+                <p>
+                    Et enfin voici une guideline à suivre concernant les différents titres : 
+                </p>
+            </div>
+            <div>
+                <img src="images/color_guidelines.png" alt="color guideline" id="classic_image">
+            </div>
+        </div>
+
+        <div class="links_course">
+            Voici le <a href="https://youtu.be/dX8396ZmSPk?feature=shared&t=12336" target="_blank">lien </a>du cours
+                concernant les couleurs
+        </div>
+    </div>
+
+<!-- FORMS -->
+    <div class="chapitre">
+        <div class="title">
+            <h2>FORMS</h2>
+        </div>
+        <p>
+            Voici un <a href="https://developer.mozilla.org/fr/docs/Web/HTML/Element/input" target="_blank">lien</a> vers les différents input utilisables au sein d'un formulaire ainsi que les<a href="https://youtu.be/dX8396ZmSPk?feature=shared&t=14462" target="_blank">explications</a>pour les plus courants
+        </p>
+
+
+        <div id="contact">
+            <div>
+                <h3>
+                   Exemple de formulaire
+                </h3>
+            </div>
+            <form 
+                id="form" 
+                action="https://formbold.com/s/94ELX"
+                method="POST"
+                enctype="multipart/form-data"
+            >
+                <div class="form-group">
+                    <label for="name">Full name</label><br>
+                    <input type="text" id="name" name="Full Name" required placeholder="Prénom NOM">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label><br>
+                    <input type="email" id="email" name="candidate email" required placeholder="p.nom@gmail.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone number</label><br>
+                    <input type="phone" id="phone" name="candidate phone" required placeholder="06 18 65 45 43">
+                </div>
+
+                <div class="form-group">
+                    <label for="dob">Date of birth</label><br>
+                    <input type="date" id="dob" name="candidate dob" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="liste">Liste avec choix</label><br>
+                    <select id="liste" name="liste" required>
+                        <option value="">
+                            Liste de choix
+                        </option>
+                        <option value="choix 1 pour serveur">
+                            Choix 1
+                        </option>
+                        <option value="choix 2 pour serveur">
+                            Choix 2
+                        </option>
+                        <option value="choix 3 pour serveur">
+                            Choix 3
+                        </option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="cv">CV uploadé</label><br>
+                    <input type="file" id="cv" name="candidate cv" accept=".pdf, .doc, .docx" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="text_zone">Speech</label><br>
+                    <textarea id="text_zone" name="candidate speech" rows="5" placeholder="Qui êtes-vous ?"></textarea> 
+                </div>
+
+                <div class="form-group">
+                    <label for="checkbox">
+                        <input type="checkbox" id="checkbox" name="conditions" required > Ok avec les conditions ?
+                    </label>
+                </div>
+
+                <div class="form-group">
+                    <input type="submit" value="Valider">
+                </div>
+
+            </form>
+        </div>
+
+    </div>
+
+<!-- Footer -->
+    <div id="footer">
+        <ul id="footer_links">
+            <li>
+                <a href="https://www.youtube.com/" target="_blank">Youtube</a>
+            </li>
+            <li>
+                <a href="https://cerithe.fr" target="_blank">Site</a>
+            </li>
+            <li>
+                <a href="https://twitter.com/" target="_blank">Twitter</a>
+            </li>
+        </ul>
+        <p>
+            © 2023, CERITHE
+        </p>
+    </div>
+</body>
+
+</html>

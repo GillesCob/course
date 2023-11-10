@@ -1,0 +1,492 @@
+
+*{
+    font-size: 16px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'roboto',sans-serif;
+}
+
+#banner{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    margin: 0;
+}
+
+/* --------------------TITRES-------------------- */
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Inter', sans-serif;
+}
+
+h1{
+    font-size: 2.5rem;
+    color: #222222;
+    margin: 50px;
+    text-align: center;
+}
+
+h2{
+    font-size: 2rem;
+    color: #444444;
+    text-align: center;
+    padding: 15px;
+    border: 2px solid black;
+}
+
+h3{
+    font-size: 1.75rem;
+    color: #666666;
+    text-align: center;
+    margin: 20px 50px;
+    border: 2px solid rgb(163, 11, 11);
+}
+
+h4{
+    font-size: 1.5rem;
+    color: #999999;
+
+}
+
+h5{
+    font-size: 1.25rem;
+}
+
+h6{
+    font-size: 1rem;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(167, 89, 89);
+    font-style: italic;
+    font-weight: bold;
+    margin: 5px;
+}
+
+a:hover{
+    color: brown;
+}
+
+p{
+    margin: 0 10px;
+}
+
+/* --------------------GENERAL-------------------- */
+
+.title{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.contenu{
+    display: flex;
+    margin: 5px;
+}
+
+.subject_text{
+    margin: 15px;
+    width: 50%;
+    margin-top: 0;
+    text-align: center;
+    align-self: center;
+}
+
+.links_course{
+    width: 100%;
+    text-align: center;
+    margin: 30px 5px 60px 5px;
+}
+
+/* _____ IMAGES ID _____ */
+
+#classic_image{
+    display: block;
+    margin: 50px auto;
+    max-width: 400px;
+    width: 90%;
+    border: 1px solid black;
+}
+
+
+
+/* html {
+    scroll-behavior: smooth; /* Définit un défilement fluide pour tout le document HTML
+} */
+
+
+
+/* --------------------TAGS-------------------- */
+
+.tags_datas{
+    width: 50%;
+    text-align: center;
+    align-self: center;   
+}
+
+/* _____ IMAGES ID _____ */
+
+#tags_image{
+    display: block;
+    margin: 10px auto;
+    max-width: 600px;
+    width: 90%;
+}
+
+
+/* --------------------WIREFRAME-------------------- */
+
+.wireframe_tools{
+    width: 50%;
+    text-align: center;
+}
+
+/* _____ WIREFRAME ID _____ */
+
+
+#wireframe_image{
+    display: block;
+    margin: 10px auto;
+    max-width: 400px;
+    width: 50%;
+}
+
+
+/* --------------------LISTS-------------------- */
+
+.lists_ul{
+    width: 50%;
+}
+
+.lists_ol{
+    width: 50%;
+}
+
+.text_lists_none {
+    margin: 15px auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.text_lists_none ul{
+    list-style: none;
+}
+
+.text_lists_footer {
+    margin: 50px auto 0 auto;
+    padding: 10px;
+    text-align: center;
+}
+
+.text_lists_footer li{
+    display: inline;
+    margin: 20px auto;
+}
+
+/* _____ LISTS ID _____ */
+
+#ul_without_point{
+    display: block;
+    margin: 10px auto;
+    max-width: 400px;
+    width: 50%;
+    border-radius: 5px;
+}
+
+#ul_footer{
+    display: block;
+    margin: 10px auto;
+    max-width: 400px;
+    width: 50%;
+    border-radius: 5px;
+}
+
+/* --------------------LINKS-------------------- */
+
+.links_text{
+    margin: 5px;
+    width: 50%;
+    align-self: center;
+}
+
+.links_links{
+    width: 50%;
+    margin: 2px;
+}
+
+/* --------------------IMAGES-------------------- */
+
+.images_text{
+    width: 100%;
+    margin: 20px auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.images_possibility{
+    width: 100%;
+}
+
+.image_1{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.image_2{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+/* _____ IMAGES ID _____ */
+
+#image1{
+    width: 100%;
+    margin: 5px auto;
+    height: 400px;
+    object-fit: cover;
+}
+
+#image2{
+    display: block;
+    margin: 5px auto;
+    max-width: 500px;
+    width: 50%;
+    border-radius: 10px;
+}
+
+.images_positions{
+    display: flex;
+    align-items: center;
+}
+
+
+/* __________ IMAGES 1 __________ */
+.image_position_1{
+    height: 200px;
+    border: solid black;
+    width: 25%;
+    background-color: rgb(183, 220, 220);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#image_position_1{
+    height: 70px;
+    width: auto;
+}
+
+
+/* __________ IMAGES 2 __________ */
+.image_position_2{
+    height: 277px;
+    border: solid black;
+    width: 25%;
+    background-color: aqua;
+
+    display: flex;
+    justify-content: right;
+    align-items: top;
+}
+
+#image_position_2{
+    height: 90px;
+    width: auto;
+}
+
+/* __________ IMAGES 3 __________ */
+.image_position_3{
+    height: 75px;
+    border: solid black;
+    width: 25%;
+    background-color: rgb(172, 216, 216);
+
+    display: flex;
+    margin-top: auto;
+    align-items: end;
+}
+
+#image_position_3{
+    height: 40px;
+    width: auto;
+
+}
+
+
+/* __________ IMAGES 4 __________ */
+.image_position_4{
+    height: 200px;
+    border: solid black;
+    width: 25%;
+    background-color: aqua;
+
+    display: flex;
+    margin-bottom: auto;
+
+    justify-content: right;
+    align-items: center;
+
+}
+
+#image_position_4{
+    height: 100px;
+    width: auto;
+}
+
+
+
+/* --------------------CSS-------------------- */
+
+.css_text{
+    max-width: 650px;
+    margin: 0 auto;
+    margin: 0 5px;
+    text-align: left;
+    background-color: rgb(230, 226, 226);
+}
+
+.css_exemples{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.css_contenu2{
+    display: flex;
+}
+
+.css_box_text{
+    margin: 5px;
+    width: 50%;
+    text-align: center;
+    align-self: center;   
+}
+
+.css_box_image{
+    width: 50%;
+    margin: 10px;
+    text-align: center;
+}
+
+/* _____ IMAGE ID _____ */
+
+#css_image{
+    display: block;
+    margin: 10px auto;
+    max-width: 400px;
+    width: 70%;
+}
+
+
+
+/* --------------------TABLE-------------------- */
+
+#exemple_tab{
+    margin: 15px auto 40px auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.row_header th{
+    border: 1px solid black;
+    padding: 10px;
+    background-color: rgb(180, 180, 180);
+}
+
+.row_data td{
+    border: 1px solid black;
+    padding: 5px 30px;
+    text-align: center;
+}
+
+
+#exemple_tab tr:nth-child(odd){
+    background-color: rgb(240, 233, 233);
+}
+
+
+/* --------------------REM et EM-------------------- */
+.rem{
+    text-align: left;
+    width: 80%;
+}
+
+
+.rem_text{
+    align-self: center;
+}
+
+
+/* _____ REM/EM ID _____ */
+
+
+#rem_coefficient{
+    max-width: 400px;
+}
+
+
+/* --------------------COLOR-------------------- */
+.color_text{
+    text-align: right;
+    align-self: center;
+}
+
+
+/* --------------------FORM-------------------- */
+.form-group{
+    margin: 16px 0;
+}
+
+.form-group textarea{
+    width: 80%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form-group input[type='checkbox']{
+    width: 16px;
+    height: 16px;
+}
+
+.form-group input[type='submit']{
+    background-color: #6366F1;
+    color: white;
+    padding: 8px 20px 8px 20px;
+    cursor: pointer;
+}
+
+#contact{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 8px;
+}
+
+#form label{
+    font-weight: 600;
+}
+
+#form input select, textarea{
+    padding: 8px;
+    font-size: 1.25rem;
+    margin-top: 4px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+
+/* --------------------FOOTER-------------------- */
+#footer{
+    background-color: rgb(228, 226, 226);
+    padding: 20px;
+    text-align: center;
+
+}
+
+
+#footer_links li{
+    display: inline;
+    list-style: none;
+    margin: 0 20px;
+}
